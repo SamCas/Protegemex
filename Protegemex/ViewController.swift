@@ -19,7 +19,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func unwindMapa(unwindSegue: UIStoryboardSegue){
+        
+    }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender:Any?) {
+            if (segue.identifier == "info") {
+                let vistaInfo = segue.destination as! ViewControllerMapa
+            }
+    }
+    
 }
-
