@@ -17,6 +17,9 @@
 		7E4D6A772131F7F400FEA158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4D6A752131F7F400FEA158 /* LaunchScreen.storyboard */; };
 		7E4D6A822131F7F400FEA158 /* ProtegemexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D6A812131F7F400FEA158 /* ProtegemexTests.swift */; };
 		7E4D6A8D2131F7F400FEA158 /* ProtegemexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D6A8C2131F7F400FEA158 /* ProtegemexUITests.swift */; };
+		7E4D6AA021322CE000FEA158 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4D6A782131F7F400FEA158 /* Info.plist */; };
+		7E4D6AA121322CE000FEA158 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4D6A782131F7F400FEA158 /* Info.plist */; };
+		7E4D6AA221322CE100FEA158 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4D6A782131F7F400FEA158 /* Info.plist */; };
 		8B03B8E2203E203805C0B9B5 /* Pods_Protegemex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528CADC00A199C80ACB26F38 /* Pods_Protegemex.framework */; };
 		A2A7337A21320E3A006FD2F5 /* ViewControllerMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A7337921320E3A006FD2F5 /* ViewControllerMapa.swift */; };
 		A2BA67482132232F00650C46 /* GoogleMapsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A2BA67472132232F00650C46 /* GoogleMapsFile.m */; };
@@ -224,8 +227,8 @@
 		A2A7337921320E3A006FD2F5 /* ViewControllerMapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMapa.swift; sourceTree = "<group>"; };
 		A2BA67462132232E00650C46 /* Protegemex-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Protegemex-Bridging-Header.h"; sourceTree = "<group>"; };
 		A2BA67472132232F00650C46 /* GoogleMapsFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsFile.m; sourceTree = "<group>"; };
-		A2BA674E213224A100650C46 /* Swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Swift.md; sourceTree = "<group>"; };
-		A2BA674F213224A100650C46 /* CustomMarkers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CustomMarkers.md; sourceTree = "<group>"; };
+		A2BA674E213224A100650C46 /* Swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Swift.md; path = "../../google-maps-ios-utils/Swift.md"; sourceTree = "<group>"; };
+		A2BA674F213224A100650C46 /* CustomMarkers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CustomMarkers.md; path = "../../google-maps-ios-utils/CustomMarkers.md"; sourceTree = "<group>"; };
 		A2BA6751213224A100650C46 /* KMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLViewController.h; sourceTree = "<group>"; };
 		A2BA6752213224A100650C46 /* CustomMarkerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMarkerViewController.m; sourceTree = "<group>"; };
 		A2BA6753213224A100650C46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,8 +259,8 @@
 		A2BA6772213224A100650C46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2BA6773213224A100650C46 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		A2BA6774213224A100650C46 /* Samples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Samples.h; sourceTree = "<group>"; };
-		A2BA6775213224A100650C46 /* HeatmapRendering.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = HeatmapRendering.md; sourceTree = "<group>"; };
-		A2BA6776213224A100650C46 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A2BA6775213224A100650C46 /* HeatmapRendering.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = HeatmapRendering.md; path = "../../google-maps-ios-utils/HeatmapRendering.md"; sourceTree = "<group>"; };
+		A2BA6776213224A100650C46 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../../google-maps-ios-utils/LICENSE"; sourceTree = "<group>"; };
 		A2BA677A213224A100650C46 /* GMUDefaultClusterRendererTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDefaultClusterRendererTest.m; sourceTree = "<group>"; };
 		A2BA677B213224A100650C46 /* GMUGridBasedClusterAlgorithmTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGridBasedClusterAlgorithmTest.m; sourceTree = "<group>"; };
 		A2BA677C213224A100650C46 /* GMUClusterAlgorithmTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUClusterAlgorithmTest.m; sourceTree = "<group>"; };
@@ -297,7 +300,7 @@
 		A2BA67A3213224A100650C46 /* KML_LineString_Test.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = KML_LineString_Test.kml; sourceTree = "<group>"; };
 		A2BA67A6213224A100650C46 /* GMUTestClusterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUTestClusterItem.m; sourceTree = "<group>"; };
 		A2BA67A7213224A100650C46 /* GMUTestClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUTestClusterItem.h; sourceTree = "<group>"; };
-		A2BA67A8213224A100650C46 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		A2BA67A8213224A100650C46 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGELOG; path = "../../google-maps-ios-utils/CHANGELOG"; sourceTree = "<group>"; };
 		A2BA67AB213224A100650C46 /* GMU-UnitTest.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "GMU-UnitTest.release.xcconfig"; sourceTree = "<group>"; };
 		A2BA67AC213224A100650C46 /* GMU-UnitTest.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "GMU-UnitTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BA67AD213224A100650C46 /* GMU-DevApp.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "GMU-DevApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -305,8 +308,8 @@
 		A2BA67AF213224A100650C46 /* GMU-DevApp.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "GMU-DevApp.release.xcconfig"; sourceTree = "<group>"; };
 		A2BA67B0213224A100650C46 /* GoogleMapsUtils.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GoogleMapsUtils.xcodeproj; sourceTree = "<group>"; };
 		A2BA67B3213224A100650C46 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		A2BA67B4213224A100650C46 /* GeometryRendering.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GeometryRendering.md; sourceTree = "<group>"; };
-		A2BA67B5213224A100650C46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2BA67B4213224A100650C46 /* GeometryRendering.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = GeometryRendering.md; path = "../../google-maps-ios-utils/GeometryRendering.md"; sourceTree = "<group>"; };
+		A2BA67B5213224A100650C46 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../google-maps-ios-utils/README.md"; sourceTree = "<group>"; };
 		A2BA67B8213224A100650C46 /* SwiftDemoApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftDemoApp.xcodeproj; sourceTree = "<group>"; };
 		A2BA67BC213224A100650C46 /* police_stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = police_stations.json; sourceTree = "<group>"; };
 		A2BA67BD213224A100650C46 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -337,11 +340,11 @@
 		A2BA67DC213224A100650C46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2BA67DD213224A100650C46 /* ObjCDemoApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ObjCDemoApp.xcodeproj; sourceTree = "<group>"; };
 		A2BA67E1213224A100650C46 /* git-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "git-clang-format"; sourceTree = "<group>"; };
-		A2BA67E2213224A100650C46 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		A2BA67E3213224A100650C46 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
-		A2BA67E4213224A100650C46 /* AUTHORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS.txt; sourceTree = "<group>"; };
-		A2BA67E5213224A100650C46 /* CONTRIBUTORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS.txt; sourceTree = "<group>"; };
-		A2BA67E6213224A100650C46 /* Google-Maps-iOS-Utils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Google-Maps-iOS-Utils.podspec"; sourceTree = "<group>"; };
+		A2BA67E2213224A100650C46 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = "../../google-maps-ios-utils/.gitignore"; sourceTree = "<group>"; };
+		A2BA67E3213224A100650C46 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = "../../google-maps-ios-utils/CONTRIBUTING.md"; sourceTree = "<group>"; };
+		A2BA67E4213224A100650C46 /* AUTHORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AUTHORS.txt; path = "../../google-maps-ios-utils/AUTHORS.txt"; sourceTree = "<group>"; };
+		A2BA67E5213224A100650C46 /* CONTRIBUTORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CONTRIBUTORS.txt; path = "../../google-maps-ios-utils/CONTRIBUTORS.txt"; sourceTree = "<group>"; };
+		A2BA67E6213224A100650C46 /* Google-Maps-iOS-Utils.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; name = "Google-Maps-iOS-Utils.podspec"; path = "../../google-maps-ios-utils/Google-Maps-iOS-Utils.podspec"; sourceTree = "<group>"; };
 		A2BA67E9213224A100650C46 /* GMUClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUClusterManager.m; sourceTree = "<group>"; };
 		A2BA67EA213224A100650C46 /* GMUStaticCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStaticCluster.h; sourceTree = "<group>"; };
 		A2BA67EB213224A100650C46 /* GMUMarkerClustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUMarkerClustering.h; sourceTree = "<group>"; };
@@ -520,14 +523,6 @@
 		A2BA6749213223DB00650C46 /* Google-Maps-iOS-Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A2BA674D213224A100650C46 /* google-maps-ios-utils */,
-			);
-			path = "Google-Maps-iOS-Utils";
-			sourceTree = "<group>";
-		};
-		A2BA674D213224A100650C46 /* google-maps-ios-utils */ = {
-			isa = PBXGroup;
-			children = (
 				A2BA674E213224A100650C46 /* Swift.md */,
 				A2BA674F213224A100650C46 /* CustomMarkers.md */,
 				A2BA6750213224A100650C46 /* app */,
@@ -547,8 +542,7 @@
 				A2BA67E6213224A100650C46 /* Google-Maps-iOS-Utils.podspec */,
 				A2BA67E7213224A100650C46 /* src */,
 			);
-			name = "google-maps-ios-utils";
-			path = "../../google-maps-ios-utils";
+			path = "Google-Maps-iOS-Utils";
 			sourceTree = "<group>";
 		};
 		A2BA6750213224A100650C46 /* app */ = {
@@ -579,7 +573,8 @@
 				A2BA6773213224A100650C46 /* MasterViewController.m */,
 				A2BA6774213224A100650C46 /* Samples.h */,
 			);
-			path = app;
+			name = app;
+			path = "../../google-maps-ios-utils/app";
 			sourceTree = "<group>";
 		};
 		A2BA6757213224A100650C46 /* Resources */ = {
@@ -627,7 +622,8 @@
 				A2BA6791213224A100650C46 /* resources */,
 				A2BA67A4213224A100650C46 /* common */,
 			);
-			path = test;
+			name = test;
+			path = "../../google-maps-ios-utils/test";
 			sourceTree = "<group>";
 		};
 		A2BA6778213224A100650C46 /* unit */ = {
@@ -745,7 +741,8 @@
 				A2BA67B0213224A100650C46 /* GoogleMapsUtils.xcodeproj */,
 				A2BA67B3213224A100650C46 /* Podfile */,
 			);
-			path = workspace;
+			name = workspace;
+			path = "../../google-maps-ios-utils/workspace";
 			sourceTree = "<group>";
 		};
 		A2BA67AA213224A100650C46 /* XcodeConfig */ = {
@@ -776,7 +773,8 @@
 				A2BA67B7213224A100650C46 /* SwiftDemoApp */,
 				A2BA67CF213224A100650C46 /* ObjCDemoApp */,
 			);
-			path = samples;
+			name = samples;
+			path = "../../google-maps-ios-utils/samples";
 			sourceTree = "<group>";
 		};
 		A2BA67B7213224A100650C46 /* SwiftDemoApp */ = {
@@ -859,7 +857,8 @@
 			children = (
 				A2BA67E1213224A100650C46 /* git-clang-format */,
 			);
-			path = third_party;
+			name = third_party;
+			path = "../../google-maps-ios-utils/third_party";
 			sourceTree = "<group>";
 		};
 		A2BA67E7213224A100650C46 /* src */ = {
@@ -870,7 +869,8 @@
 				A2BA680B213224A100650C46 /* Geometry */,
 				A2BA6826213224A100650C46 /* QuadTree */,
 			);
-			path = src;
+			name = src;
+			path = "../../google-maps-ios-utils/Google-Maps-iOS-Utils/src";
 			sourceTree = "<group>";
 		};
 		A2BA67E8213224A100650C46 /* Clustering */ = {
@@ -1179,6 +1179,7 @@
 				A2BA6873213224A200650C46 /* KML_GroundOverlay_Test.kml in Resources */,
 				A2BA6843213224A200650C46 /* m3.png in Resources */,
 				A2BA6846213224A200650C46 /* m5.png in Resources */,
+				7E4D6AA021322CE000FEA158 /* Info.plist in Resources */,
 				A2BA6854213224A200650C46 /* LICENSE in Resources */,
 				A2BA684B213224A200650C46 /* Main.storyboard in Resources */,
 				A2BA6851213224A200650C46 /* Info.plist in Resources */,
@@ -1217,6 +1218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4D6AA121322CE000FEA158 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1224,6 +1226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E4D6AA221322CE100FEA158 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
